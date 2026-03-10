@@ -311,9 +311,6 @@ Thanks for all the fish
 
 J'ai entré la chaîne `Thanks for all the fish` dans l'application.
 
-![Saisie du secret](screenshots/15.png)
-*Figure 24 : Saisie de "Thanks for all the fish" dans le champ de texte*
-
 ### 8.2 Résultat de la validation
 
 Après avoir cliqué sur "VERIFY", l'application a affiché un message de succès.
