@@ -146,6 +146,8 @@ ls -la uncrackable2/lib/
 ```
 
 ![Structure du dossier lib](screenshots/8.png)
+![Structure du dossier lib](screenshots/9.png)
+![Structure du dossier lib](screenshots/10.png)
 *Figure 11 : Structure du dossier lib avec les différentes architectures*
 
 **Architectures présentes :**
