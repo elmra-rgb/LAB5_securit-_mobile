@@ -89,23 +89,6 @@ Dans `MainActivity`, j'ai localisé le code de validation :
 ![Code de MainActivity](screenshots/4.png)
 *Figure 6 : Méthode `verify` de MainActivity avec appel à `this.m.a(string)`*
 
-**Extrait du code identifié :**
-
-```java
-public void verify(View view) {
-    String string = ((EditText) findViewById(R.id.edit_text)).getText().toString();
-    AlertDialog alertDialogCreate = new AlertDialog.Builder(this).create();
-    if (this.m.a(string)) {
-        alertDialogCreate.setTitle("Success!");
-        str = "This is the correct secret.";
-    } else {
-        alertDialogCreate.setTitle("Nope...");
-        str = "That's not it. Try again.";
-    }
-    // ...
-}
-```
-
 **Observation :** La vérification n'est pas effectuée directement dans `MainActivity` mais déléguée à un objet `m` (instance de `CodeCheck`).
 
 ### 4.4 Identification de la classe CodeCheck
@@ -116,18 +99,6 @@ J'ai recherché la classe `CodeCheck` dans l'arborescence.
 *Figure 7 : La classe CodeCheck visible dans la structure du package*
 
 ### 4.5 Analyse de la classe CodeCheck
-
-```java
-package sg.vantagepoint.uncrackable2;
-
-public class CodeCheck {
-    private native boolean bar(byte[] bArr);
-
-    public boolean a(String str) {
-        return bar(str.getBytes());
-    }
-}
-```
 
 ![Code de CodeCheck](screenshots/5.png)
 *Figure 8 : Code de la classe CodeCheck avec méthode native `bar`*
