@@ -196,9 +196,6 @@ Dans Ghidra :
 1. **File → New Project** → "Non-Shared Project"
 2. Import du fichier `uncrackable2/lib/arm64-v8a/libfoo.so`
 
-![Import de libfoo.so](screenshots/10.png)
-*Figure 15 : Fenêtre d'import avec sélection de libfoo.so*
-
 ### 6.3 Analyse automatique
 
 Après l'import, j'ai lancé l'analyse automatique avec les options par défaut.
@@ -264,8 +261,6 @@ Pour l'exercice, j'ai cherché la valeur hexadécimale correspondante :
 | Thanks for all the fish | `54 68 61 6e 6b 73 20 66 6f 72 20 61 6c 6c 20 74 68 65 20 66 69 73 68` |
 | Inversée (hsif eht lla rof sknahT) | `68 73 69 66 20 65 68 74 20 6c 6c 61 20 72 6f 66 20 73 6b 6e 61 68 54` |
 
-![Recherche de chaînes dans Ghidra](screenshots/14.png)
-*Figure 21 : Recherche de chaînes dans Ghidra (résultats partiels)*
 
 ---
 
