@@ -51,22 +51,9 @@ adb install UnCrackable-Level2.apk
 ![Installation de l'APK](screenshots/1.png)
 *Figure 1 : Installation réussie de UnCrackable-Level2.apk sur l'émulateur*
 
-### 3.2 Observation de l'interface
-
-L'application présente une interface simple avec un champ de saisie et un bouton "VERIFY".
-
-![Interface principale](screenshots/1.1.png)
-*Figure 2 : Interface de l'application avec champ de texte et bouton de validation*
-
 ### 3.3 Tests de valeurs incorrectes
 
-Pour comprendre le comportement, j'ai testé plusieurs valeurs aléatoires :
-
-| Valeur testée | Résultat observé |
-|---------------|------------------|
-| `test` | Message "Nope... That's not it. Try again." |
-| `1234` | Message "Nope... That's not it. Try again." |
-| `android` | Message "Nope... That's not it. Try again." |
+Pour comprendre le comportement, j'ai testé des valeurs aléatoires :
 
 ![Message d'erreur](screenshots/1.1.png)
 *Figure 3 : Message d'erreur affiché pour une valeur incorrecte*
